@@ -1,0 +1,156 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cool web page</title>
+</head>
+<body>
+   
+  <h1>Iris Yang</h1>
+  <h2>My Trip to Alaska</h2>
+  <p>
+    I went on a trip to Alaska last year. I loved driving by on the roads and seeing the glaciers and wildlife. We also went kayaking in the ocean and saw sea otters and bald eagles. It was a really fun trip and I hope to go back again someday!
+  </p>
+  <h2>My Pets</h2>
+<ul>
+    <li>A horse named Sundance </li>
+    <li>A cat named Muffin</li>
+    <li>A parrot named Coconut</li>
+ </ul>
+ 
+<h2>My Favorite Restaurant</h2>
+<a href="https://usa.mollytea.com/" target="_blank" rel="noopener noreferrer">Molly Tea</a>
+<p>Although this place is not a restaurant, this is my favorite tea store. I love the jasmine and fruit teas they serve here, and it's refreshingly sweet - perfect for a hot day!</p>
+<h2>My Favorite Food</h2>
+<div style="display:inline-block; background-image: url('download.jpg'); background-size: cover; width: 500px; height: 300px; margin-left: 50px;"></div>
+<p> Strawberries are my favorite fruit! I love eating them fresh, and they are also delicious in smoothies and desserts. They are sweet and juicy, and they're a must-have addition to my breakfast meal and any dessert I have.</p>
+<h2>My Favorite Books</h2>
+<table>
+
+    <tr>
+        <th>Name of the Book</th>
+        <th>Cover Image</th>
+        <th>Author</th>
+        <th>Summary</th>
+    </tr>
+    <tr>
+        <td>The Stand-In</td>
+        <td><img src="book1.jpg" alt="The Stand-In Cover"></td>
+        <td>Lily Chu</td>
+        <td>A romance novel about a down on her luck woman who stands in for a famous Chinese actress.</td>
+    </tr>
+    <tr>
+        <td>Educated</td>
+        <td><img src="book2.jpg" alt="Educated Cover"></td>
+        <td>Tara Westover</td>
+        <td>A memoir about a woman who grows up in a survivalist family and eventually earns a PhD from Cambridge University.</td>
+    </tr>
+    <tr>
+        <td>The Hunger Games</td>
+        <td><img src="book3.jpg" alt="The Hunger Games Cover"></td>
+        <td> Suzanne Collins</td>
+        <td>A novel where a young woman participates in a fight to the death competition to survive.</td>
+    </tr>
+    <tr>
+        <td>A Tale of Two Cities</td>
+        <td><img src="book4.jpg" alt="A Tale of Two Cities Cover"></td>
+        <td>Charles Dickens</td>
+        <td>A historical novel set in London and Paris during the French Revolution.</td>
+    </tr>
+</table>
+<h2>Guest Book</h2>
+<form class="form-container">
+    <div class="form-row">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName">
+    </div>
+
+    <div class="form-row">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName">
+    </div>
+
+    <div class="form-row">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+    </div>
+
+    <div class="form-row">
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city">
+    </div>
+
+    <div class="form-row">
+        <label for="state">State:</label>
+        <select id="state" name="state">
+            <option value="">Select a state</option>
+            <option value="CA">California</option>
+            <option value="NY">New York</option>
+            <option value="TX">Texas</option>
+            <option value="FL">Florida</option>
+            <option value="IL">Illinois</option>
+            <option value="PA">Pennsylvania</option>
+        </select>
+    </div>
+
+    <div class="form-row">
+        <span></span>
+        <input type="submit" value="Submit">
+    </div>
+</form>
+<style>
+    .social-icons {
+        position: fixed;
+        top: 100px;
+        right: 35px;
+    }
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    
+    body {
+            font-family: 'Roboto', sans-serif;  
+    }
+ 
+    h1, h2 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    ul {
+        border: 1px solid black;
+        width: 200px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+     table tr:nth-child(even) {
+            background-color: #f2f2f2;
+    }
+    .form-container {
+                display: flex;
+                flex-direction: column;
+                width: 300px;
+                margin: 0 auto;
+        }
+            .form-row {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 10px;
+            }
+            .form-row label {
+                text-align: right;
+                width: 100px;
+                margin-right: 10px;
+            }
+            .form-row input, .form-row select {
+                flex-grow: 1;
+            }    
+</style>
+<div class="social-icons">
+    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="facebook.png" alt="Facebook"></a>
+    <a href="https://x.com/" target="_blank" rel="noopener noreferrer"><img src="twitter.jpg" alt="Twitter"></a>
+</div>
+</body>
+</html>
